@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test case for testing Node component Should display the Node component 1`] = `
+<Fragment>
+  <div
+    style={
+      Object {
+        "width": "30rem",
+      }
+    }
+  >
+    <StyledNode
+      level={1}
+      type="folder"
+    >
+      <StyledIcon
+        onClick={[Function]}
+      >
+        <FaChevronRight />
+      </StyledIcon>
+      <StyledIcon>
+        <FaFolder />
+      </StyledIcon>
+      <span
+        role="button"
+      >
+        mosca
+      </span>
+    </StyledNode>
+  </div>
+</Fragment>
+`;
+
+exports[`Test case for testing Node component Should display the Node component 2`] = `
+<Fragment>
+  <div
+    style={
+      Object {
+        "width": "30rem",
+      }
+    }
+  >
+    <StyledNode
+      level={1}
+      type="folder"
+    >
+      <StyledIcon
+        onClick={[Function]}
+      >
+        <FaChevronRight />
+      </StyledIcon>
+      <StyledIcon>
+        <FaFolder />
+      </StyledIcon>
+      <span
+        role="button"
+      >
+        mosca
+      </span>
+    </StyledNode>
+  </div>
+</Fragment>
+`;

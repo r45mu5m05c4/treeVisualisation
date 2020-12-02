@@ -1,71 +1,29 @@
-# Getting Started with Create React App
+### File viewer exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Your mission is to build a UI to visualise a file tree. It will work off an array of string paths, such as this:
 
-## Available Scripts
+```json
+[
+  "marvel/black_widow/bw.png",
+  "marvel/drdoom/the-doctor.png",
+  "fact_marvel_beats_dc.txt",
+  "dc/aquaman/mmmmmomoa.png",
+  "marvel/black_widow/why-the-widow-is-awesome.txt",
+  "dc/aquaman/movie-review-collection.txt",
+  "marvel/marvel_logo.png",
+  "dc/character_list.txt"
+]
+```
 
-In the project directory, you can run:
+You may visualize the data however you please, as long as the position of each file within the tree is evident. For a bare bones version it is ok to hard-code the files list.
 
-### `npm start`
+Possible stretch tasks:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* ability to open/close folders
+* make the UI support adding/editing/deleting files
+* toggle between different visualisations
+* unit tests (logic and/or UI components)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Bonus points for being generous with comments, as the whole point is to get a peek inside your architectural abilies!
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# treeVisualisation" 
+Please provide us with both the means to try it out live (a link if a web app, or an executable if other platform), and a link to a repo with the source.
